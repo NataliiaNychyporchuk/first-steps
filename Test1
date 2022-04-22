@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Layout 1</title>
+<style>
+body {
+font-family: "Arial, sans-serif";
+font-size: 14px;
+line-height: 22px;
+}
+.container {
+width: 960px;
+padding-right: 10px;
+padding-left: 10px;
+margin: 0 auto;
+}
+header {
+display: flex;
+justify-content: space-between;
+}
+.row {
+width: 279px;
+height: 107px;
+background-color: #777;
+}
+.row2 {
+color: #fff;
+width: 450px;
+height: 67px;
+padding: 20px;
+background-color: #777;
+text-align: right;
+}
+.row2 a {
+color: #fff;
+}
+.gallery {
+margin-top: 10px;
+}
+.leftside {
+width: 200px;
+height: 788px;
+float: left;
+position: relative;
+}
+.leftpicture {
+position: absolute;
+bottom: 0;
+}
+ .menu {
+color: #fff;
+list-style-type: none;
+margin: 0;
+padding: 5px;
+background-color: #777;
+}
+.contentside {
+margin-left: 220px;
+}
+.content {
+width: 720px;
+height: 230px;
+padding: 10px;
+color: #777;
+background-color: #DCDCDC;
+}
+.pixelstudio {
+color: #777;
+background-color: #DCDCDC;
+width: 350px;
+margin-right: 15px;
+padding: 5px;
+text-align: justify;
+float: left;
+}
+.search {
+color: #777;
+background-color: #DCDCDC;
+width: 350px;
+height: 204px;
+padding: 5px;
+margin-left: 370px;
+text-align: justify;
+}
+footer {
+width: 100%;
+margin-top: -10px;
+clear: left;
+display: flex;
+justify-content: space-between;
+}
+.item {
+color: #fff;
+list-style-type: none;
+background-color: #777;
+width: 300px;
+height: auto;
+padding: 5px;
+column-count: 2;
+}
+.tariff {
+color: #fff;
+list-style-type: square;
+background-color: #777;
+width: 300px;
+padding: 15x;
+margin-left: 20px;
+
+}
+.footer {
+flow-direction: column;
+margin: 15px;
+margin-left: 20px;
+
+}
+.footer1 { 
+background-color: #777;
+width: 260px;
+height: 74px;
+}
+.footerimg {
+margin-top: 10px;
+}
+hr {
+color: #BEBEBE;
+}
+.descr {
+margin: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo"> 
+<img src="https://i.ibb.co/py8h18P/test3.jpg" alt="logo" width="121px" height="107px">
+</div>
+<div class="row"></div>
+ <div class="row2">
+ +7(499)346-21-31 <br>
+ <a href="manager@pixelplus.ru">manager@pixelplus.ru</a> <br>
+ <a href="www.pixelplus.ru">www.pixelplus.ru</a>
+ </div>
+</header>
+<hr>
+<div class="leftside">
+<ul class="menu">
+<li><strong>Создание сайтов</strong></li>
+<li>Изготовление сайтов «под ключ»</li>
+<li>Как мы работаем</li>
+<li>Интеграция с 1C</li>
+<li>Поддержка сайтов</li>
+<li>Создание сайтов на Битрикс</li>
+<li>Модули Битрикс</li>
+<li>Купить Битрикс</li>
+<li>Дизайн сайтов</li>
+<li>Редизайн сайтов</li>
+<li>Интернет-магазины</li>
+<li>Создание логотипов</li>
+</ul>
+<div class="leftpicture">
+<img src="https://i.ibb.co/GF0jcVv/test2.jpg" alt="leftpicture" width="200px" height="130px"> 
+</div></div>
+<div class="contentside">
+<div class="content">
+<p><strong>PSD файл с макетом. Макет разбит по слоям и сгрупирован по папках:</strong></p>
+<ul class="descr">
+<li><strong>number</strong> - нумерация блоков (номера блоков верстать не нужно)</li>
+<li><strong>text</strong> - текстовые блоки (шрифт Arial, размер 14 пикселей, межстрочное растояние 22 пикселя)</li>
+<li><strong>head</strong> - шапка сайта</p></li>
+<li><strong>content</strong> - контентная область, которая в свою очередь делится на <strong>left</strong> и <strong>center</strong></li>
+</ul>
+<p>Текстовое описание задания и требования.</p>
+</div>
+<div class="gallery">
+<img src="https://i.ibb.co/xhV7NFy/test1.jpg" alt="picture" width="142px" height="151px"> 
+<img src="https://i.ibb.co/xhV7NFy/test1.jpg" alt="picture1" width="142px" height="151px">
+<img src="https://i.ibb.co/xhV7NFy/test1.jpg" alt="picture2" width="142px" height="151px">
+<img src="https://i.ibb.co/xhV7NFy/test1.jpg" alt="picture3" width="142px" height="151px">
+<img src="https://i.ibb.co/xhV7NFy/test1.jpg" alt="picture4" width="142px" height="151px">
+<img src="https://i.ibb.co/xhV7NFy/test1.jpg" alt="picture5" width="142px" height="151px">
+<img src="https://i.ibb.co/xhV7NFy/test1.jpg" alt="picture6" width="142px" height="151px">
+</div>
+<div class="pixelstudio">
+<p>Студия «Пиксель Плюс» разработает полнофункциональный продукт ориентированный на целевую аудиторию и эффективно решающий поставленные перед ним маркетинговые задачи. Опыт работ и использование собственных технологий, позволяет предлагать услугу изготовления сайта в Москве в разумные сроки.</p>
+</div>
+<div class="search">
+<p>Поисковое продвижение (раскрутка) ведется по коммерческим запросам, что позволяет многократно увеличить количество продаж с сайта при разумном рекламном бюджете.</p>
+</div></div>
+<hr>
+<footer>
+<ul class="item">
+<li>Пункт 01</li>
+<li>Пункт 02</li>
+<li>Пункт 03</li>
+<li>Пункт 04</li>
+<li>Пункт 05</li>
+<li>Пункт 06</li>
+<li>Пункт 07</li>
+<li>Пункт 08</li>
+<li>Пункт 09</li>
+<li>Пункт 10</li>
+<li>Пункт 11</li>
+<li>Пункт 12</li>
+<li>Пункт 13</li>
+<li>Пункт 14</li>
+</ul>
+<ul class="tariff">
+<li>Поисковое продвижение сайтов</a></li>
+<li>Тариф «Старт»</li>
+<li>Тариф «Продвижение Плюс»</li>
+<li>Тариф «Интернет-магазин»</li>
+<li>Тариф «Эксклюзив»</li>
+<li>Тариф «Контекст + SEO»</li>
+<li>Тариф «Регион»</li>
+</ul>
+<div class="footer">
+<div class="footer1"></div>
+<div class="footerimg">
+<img src="https://i.ibb.co/Sc10fjP/test4.jpg" alt="footerimg" width="260px" height="74px">
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
